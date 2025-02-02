@@ -85,8 +85,8 @@ Make sure you have the following installed on your machine:
 **Cloning the Repository**
 
 ```bash
-git clone https://github.com/adrianhajdin/imaginify.git
-cd imaginify
+git clone https://github.com/adrianhajdin/visual-lab.git
+cd visual-lab
 ```
 
 **Installation**
@@ -1900,7 +1900,7 @@ export async function getAllImages({ limit = 9, page = 1, searchQuery = '' }: {
       secure: true,
     })
 
-    let expression = 'folder=imaginify';
+    let expression = 'folder=visual-lab';
 
     if (searchQuery) {
       expression += ` AND ${searchQuery}`
