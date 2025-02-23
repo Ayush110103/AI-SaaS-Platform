@@ -18,6 +18,8 @@ module.exports = {
     },
     extend: {
       colors: {
+        // Custom dark mode background color
+        darkBackground: "#121212",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
@@ -71,6 +73,8 @@ module.exports = {
       backgroundImage: {
         "purple-gradient": "url('/assets/images/gradient-bg.svg')",
         banner: "url('/assets/images/banner-bg.png')",
+        // Custom dark mode gradient background
+        "dark-gradient": "linear-gradient(135deg, #1f1c2c, #928dab)",
       },
       borderRadius: {
         lg: "var(--radius)",
